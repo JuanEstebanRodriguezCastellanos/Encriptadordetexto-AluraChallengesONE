@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root
+{
+    --color-cuerpo-fondo: #000000;
+    --color-cuerpo-base: #fbd442;
+    --color-cuerpo-texto: #ffffff;
+}
+
+.contenido
+{
+    background-color: var(--color-cuerpo-fondo);
+    color: var(--color-cuerpo-texto);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+}
+
+.contenido__encriptador
+{
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#textoEntrada
+{
+    width: 75%;
+    height: 75%;
+    resize: none;
+    border: none;
+    font-family: 'Merryweather', serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: var(--color-cuerpo-texto);
+}
