@@ -92,7 +92,10 @@ function verificarLetras(tipo)
     }
     else
     {
+        document.getElementById('textoEntrada').focus();
         document.getElementById('advertencia').className = 'advertencia';
+        document.getElementById('respuesta').style.display = 'none';
+        document.getElementById('vacio').style.display = 'inline-flex';
     }
 
     contenedorTexto.value = '';

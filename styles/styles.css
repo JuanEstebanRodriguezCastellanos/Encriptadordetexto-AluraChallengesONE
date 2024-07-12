@@ -31,7 +31,7 @@
 {
     background-color: var(--color-header-footer-fondo);
     font-family: var(--letra);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 20px;
     font-weight: 700;
 }
@@ -87,7 +87,7 @@
     align-items: center;
     justify-content: space-between;
     font-family: var(--letra);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #textoEntrada
@@ -97,7 +97,7 @@
     resize: none;
     border: none;
     font-family: var(--letra);
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: transparent;
     color: var(--color-cuerpo-texto);
     padding: 10px;
@@ -121,7 +121,7 @@
     color: var(--color-cuerpo-botones);
     border: 5px solid var(--color-cuerpo-botones);
     font-family: var(--letra);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 5px;
     width: 15rem;
     font-weight: 700;
@@ -155,6 +155,17 @@
     font-weight: 700;
 }
 
+.enlaces
+{
+    text-decoration: none;
+}
+
+.redes
+{
+    display: flex;
+    gap: 30px;
+}
+
 @media (max-width: 1200px) and (min-width: 376px)
 {
     #simbolo__resultado
@@ -181,7 +192,7 @@
     #textoEntrada
     {
         width: 100%;
-        height: 100px;
+        height: 300px;
     }
 
     .contenido__resultado
@@ -238,7 +249,7 @@
     #textoEntrada
     {
         width: 100%;
-        height: 100px;
+        height: 300px;
     }
 
     .contenido__resultado
