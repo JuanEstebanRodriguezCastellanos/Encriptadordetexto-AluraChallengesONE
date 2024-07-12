@@ -113,7 +113,7 @@ function copiar()
         function() {
             document.getElementById("botonCopiar").innerText = "Hecho";
         }, 
-        function(err) {
+        function() {
             alert("No se pudo copiar el texto");
         }
     );
