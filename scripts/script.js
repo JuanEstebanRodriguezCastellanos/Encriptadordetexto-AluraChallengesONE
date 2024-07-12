@@ -45,7 +45,10 @@ function encriptar()
     );
 
     contenedorTexto.value = '';
-    document.getElementById('contenido__resultado').innerHTML = `<p>${nuevoTexto}</p> <button>Copiar</button>`;
+    document.getElementById('resultado').innerHTML = texto;
+    document.getElementById('respuesta').style.display = 'block';
+    document.getElementById('vacio').style.display = 'none';
+    document.getElementById("botonCopiar").innerText = "Copiar";
 }
 
 function desencriptar()
@@ -60,12 +63,20 @@ function desencriptar()
     texto = texto.replace(/ufat/g, 'u');
 
     contenedorTexto.value = '';
-    document.getElementById('contenido__resultado').innerHTML = `<p id='respuesta'>${texto}</p> <button class="boton" id='botonCopiar' onclick='copiar()'>Copiar</button>`;
+    document.getElementById('resultado').innerText = texto;
+    document.getElementById('respuesta').style.display = 'block';
+    document.getElementById('vacio').style.display = 'none';
+    document.getElementById("botonCopiar").innerText = "Copiar";
 }
 
-function copiar() {
-    alert('vgtfhfh aaaaaa D:');
-    var resultado = document.getElementById("respuesta");
+function configuracionInicial()
+{
+    document.getElementById('respuesta').style.display = 'none';
+}
+
+function copiar()
+{
+    let resultado = document.getElementById("resultado");
     navigator.clipboard.writeText(resultado.innerText).then(
         function() {
             document.getElementById("botonCopiar").innerText = "Copiado";

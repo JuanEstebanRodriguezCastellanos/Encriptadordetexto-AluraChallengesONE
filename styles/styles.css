@@ -5,6 +5,15 @@
     --color-cuerpo-fondo: #000000;
     --color-cuerpo-base: #fbd442;
     --color-cuerpo-texto: #ffffff;
+    --color-cuerpo-botones: #12c45c;
+    --color-cuerpo-resultado: #920557;
+    --color-cuerpo-encriptador: #4acfcf;
+}
+
+.body
+{
+    height: 100vh;
+    width: 100%;
 }
 
 .contenido
@@ -21,11 +30,22 @@
 {
     padding-left: 50px;
     padding-top: 20px;
-    width: 75%;
+    width: 60%;
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: var(--color-cuerpo-encriptador);
+}
+
+.contenido__resultado
+{
+    padding: 30px;
+    border-radius: 15%;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-cuerpo-resultado);
 }
 
 #textoEntrada
@@ -38,4 +58,21 @@
     font-size: 1.5rem;
     background-color: transparent;
     color: var(--color-cuerpo-texto);
+}
+
+.contenido__encriptador__botones
+{
+    width: 75%;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boton
+{
+    border: 2px solid var(--color-cuerpo-botones);
+    border-radius: 35%;
+    width: 100px;
 }

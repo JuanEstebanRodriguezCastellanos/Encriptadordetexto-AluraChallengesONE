@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js"></script>
 </head>
-<body>
+<body onload="configuracionInicial()">
     <header>
 
     </header>
@@ -24,16 +25,25 @@
                 </button>
             </div>
         </div>
+
         <div class="contenido__resultado" id="contenido__resultado">
-            <img id="simbolo__resultado" src="assets/simbolo_resultado.png">
-            <h1>Ningún mensaje encontrado</h1>
-            <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            <div class="contenido__resultado__vacio" id="vacio">
+                <img id="simbolo__resultado" src="assets/simbolo_resultado.png">
+                <h1>Ningún mensaje encontrado</h1>
+                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="contenido__resultado__respuesta" id="respuesta">
+                <p id='resultado'>
+
+                </p>
+                <button onclick="copiar()" class="boton" id='botonCopiar'>
+                    Copiar
+                </button>
+            </div>
         </div>
     </main>
     <footer>
 
     </footer>
-
-    <script src="scripts/script.js"></script>
 </body>
 </html>
