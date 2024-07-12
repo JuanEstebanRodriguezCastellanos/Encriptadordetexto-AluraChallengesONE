@@ -167,12 +167,15 @@
         flex-direction: column;
         align-items: center;
         padding: 0;
-        gap: 20px
+        padding: 20px 0;
+        gap: 20px;
+        height: auto;
     }
 
     .contenido__encriptador
     {
         padding: 0;
+        padding-top: 20px;
     }
 
     #textoEntrada
@@ -257,6 +260,6 @@
 
     #botonCopiar
     {
-        width: 50%;
+        width: 75%;
     }
 }
