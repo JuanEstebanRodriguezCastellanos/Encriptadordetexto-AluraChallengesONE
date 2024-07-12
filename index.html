@@ -8,19 +8,19 @@
     <script src="scripts/script.js"></script>
 </head>
 <body onload="configuracionInicial()">
-    <header>
-
+    <header class="header">
+        Encriptador y desencriptador de mensajes
     </header>
     <main class="contenido">
         <div class="contenido__encriptador">
             <textarea type="text" id="textoEntrada" placeholder="Ingrese el texto aquí"></textarea>
 
-            <p> <img src="assets/simbolo_advertencia.png"> Solo letras mayúsculas y sin acento</p>
+            <p id="advertencia"> <img src="assets/simbolo_advertencia.png"> Solo letras mayúsculas y sin acento</p>
             <div class="contenido__encriptador__botones">
-                <button onclick="encriptar()" class="boton">
+                <button onclick="verificarLetras('encriptar')" class="boton">
                     Encriptar
                 </button>
-                <button onclick="desencriptar()" class="boton">
+                <button onclick="verificarLetras('desencriptar')" class="boton">
                     Desencriptar
                 </button>
             </div>
@@ -29,10 +29,13 @@
         <div class="contenido__resultado" id="contenido__resultado">
             <div class="contenido__resultado__vacio" id="vacio">
                 <img id="simbolo__resultado" src="assets/simbolo_resultado.png">
-                <h1>Ningún mensaje encontrado</h1>
-                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+                
+                <div>
+                    <h1>Ningún mensaje encontrado</h1>
+                    <p>Ingrese el texto que desees encriptar o desencriptar</p>
+                </div>
             </div>
-            <div class="contenido__resultado__respuesta" id="respuesta">
+            <div class="contenido__resultado__respuesta" id="respuesta">  
                 <p id='resultado'>
 
                 </p>
@@ -42,8 +45,8 @@
             </div>
         </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+        Lorem ipsum bottom text
     </footer>
 </body>
 </html>

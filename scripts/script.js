@@ -1,8 +1,5 @@
-function encriptar()
+function encriptar(texto)
 {
-    let contenedorTexto = document.getElementById('textoEntrada');
-    let texto = contenedorTexto.value;
-
     let nuevoTexto = '';
 
     texto.split('').forEach(letra => 
@@ -11,7 +8,7 @@ function encriptar()
             {
                 case 'a':
                 {
-                    nuevoTexto += 'ei';
+                    nuevoTexto += 'ai';
                     break;
                 }
                 case 'e':
@@ -44,29 +41,61 @@ function encriptar()
         }
     );
 
-    contenedorTexto.value = '';
-    document.getElementById('resultado').innerHTML = texto;
-    document.getElementById('respuesta').style.display = 'block';
-    document.getElementById('vacio').style.display = 'none';
-    document.getElementById("botonCopiar").innerText = "Copiar";
+    return nuevoTexto;
 }
 
-function desencriptar()
+function desencriptar(texto)
 {
-    let contenedorTexto = document.getElementById('textoEntrada');
-    let texto = contenedorTexto.value;
-
-    texto = texto.replace(/ei/g, 'a');
+    texto = texto.replace(/ai/g, 'a');
     texto = texto.replace(/enter/g, 'e');
     texto = texto.replace(/imes/g, 'i');
     texto = texto.replace(/ober/g, 'o');
     texto = texto.replace(/ufat/g, 'u');
 
+    return texto;
+}
+
+function verificarLetras(tipo)
+{
+    let contenedorTexto = document.getElementById('textoEntrada');
+    let texto = contenedorTexto.value;
+
+    abecedario = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', ',', '.', '¡', '!', '¿', '?', ';'];
+
+    let correcto = true;
+
+    correcto = texto.split('').every((letra) => abecedario.includes(letra)) && texto!='';
+
+    if(correcto)
+    {
+        let nuevoTexto= '';
+
+        switch(tipo)
+        {
+            case 'encriptar':
+            {
+                nuevoTexto = encriptar(texto);
+                break;
+            }
+            case 'desencriptar':
+            {
+                nuevoTexto = desencriptar(texto);
+                break;
+            }
+        }
+
+        document.getElementById('resultado').innerHTML = nuevoTexto;
+        document.getElementById('respuesta').style.display = 'inline-flex';
+        document.getElementById('vacio').style.display = 'none';
+        document.getElementById("botonCopiar").innerText = "Copiar";
+        document.getElementById('advertencia').classList.remove('advertencia');
+    }
+    else
+    {
+        document.getElementById('advertencia').className = 'advertencia';
+    }
+
     contenedorTexto.value = '';
-    document.getElementById('resultado').innerText = texto;
-    document.getElementById('respuesta').style.display = 'block';
-    document.getElementById('vacio').style.display = 'none';
-    document.getElementById("botonCopiar").innerText = "Copiar";
 }
 
 function configuracionInicial()
@@ -79,10 +108,10 @@ function copiar()
     let resultado = document.getElementById("resultado");
     navigator.clipboard.writeText(resultado.innerText).then(
         function() {
-            document.getElementById("botonCopiar").innerText = "Copiado";
+            document.getElementById("botonCopiar").innerText = "Hecho";
         }, 
         function(err) {
-            alert("Error al copiar el texto: " + err);
+            alert("No se pudo copiar el texto");
         }
     );
 }
