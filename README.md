@@ -1,4 +1,7 @@
 # Encriptadordetexto-AluraChallengesONE
+<div style="text-align: center;">
+  <img src="https://img.shields.io/badge/Estado-En%20espera%20de%20aprobaci%C3%B3n-purple" alt="Estado: En espera de aprobación">
+</div>
 ## Qué es
 Este proyecto consiste en la realización de encriptador y desencriptador de texto sujeto a una serie de reglas. Esto como parte del challenge final de la Formación Principiante en Programación del programa ONE de Oracle y Alura.
 ### Reglas de encriptación
