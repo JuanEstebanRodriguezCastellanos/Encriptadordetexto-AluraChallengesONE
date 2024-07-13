@@ -50,9 +50,16 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
 ## Funcionamiento
+### Contenido
+#### Zona izquierda
 ![Zona_izquierda](https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5)
 *Zona izquierda del contenido.*
 
-En esta parte se encuentra
+Aquí se puede encontrar un área para ingresar el texto, con la frase "Ingrese el texto aquí", seguida de una señal de advertencia acerca del tipo de contenido permitido.
+
+Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la revisión del correcto estado del texto. Si las condiciones se cumplen, se procede a realizar el proceso de encriptación o desencriptación, respectivamente y se vacía el campo de texto. En caso de no cumplirse, la señal de advertencia se enmarca, y se vacía el campo de texto y se hace focus en él.
+---
+#### Zona derecha
+![Zona_derecha](https://github.com/user-attachments/assets/b2d101ef-48e9-49b3-a9e3-dcac8078c891)
 
 
