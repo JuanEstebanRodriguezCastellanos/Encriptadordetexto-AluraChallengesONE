@@ -18,6 +18,7 @@ En el caso de este proyecto solo se permitirá entonces las letras en el rango `
 Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 * Cabecera: Contiene el título de la página "Encriptador y desencriptador de mensajes".
 * Contenido:Este consiste en dos zonas.
+
     *La zona de la izquierda contiene el espacio para la inserción y verificación del texto ingresado.
     *La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
 ### Computador
