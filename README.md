@@ -29,49 +29,41 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 ### Computador
 
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
-
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
 
 ---
 
 ![Computador-visible](https://github.com/user-attachments/assets/b0aa8630-7d3a-4361-9fd5-be0240dc6011)
-
 *Imagen del diseño para computador posterior a la desencriptación o encriptación.*
 
 ### Tablet
 
 ![Tablet-oculto](https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5)
-
 *Imagen del diseño para tablet previo a la desencriptación o encriptación.*
 
 ---
 
 ![Tablet-visible](https://github.com/user-attachments/assets/7b2d73ea-e297-434a-8d33-d087b9c4170a)
-
 *Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
 
 ### Celular
 
 ![Celular-oculto](https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b)
-
 *Imagen del diseño para celular previo a la desencriptación o encriptación.*
 
 ---
 
 ![Celular-visible](https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931)
-
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
 ### Estado de los botones
 
 ![botones_desactivados](https://github.com/user-attachments/assets/0eb6f05a-1027-4321-b422-bd98333abdc3)
-
 *Diseño de los botones desactivados*
 
 ---
 
 ![botones_activados](https://github.com/user-attachments/assets/7c0d17a6-f749-42fa-985a-d5f4fad1ae37)
-
 *Diseño de los botones activados*
 
 ## Funcionamiento
@@ -79,7 +71,6 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 #### Zona izquierda
 
 ![Zona_izquierda](https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5)
-
 *Zona izquierda del contenido.*
 
 Aquí se puede encontrar un área para ingresar el texto, con la frase "Ingrese el texto aquí", seguida de una señal de advertencia acerca del tipo de contenido permitido.
@@ -91,13 +82,11 @@ Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la r
 #### Zona derecha
 
 ![Zona_derecha_pre](https://github.com/user-attachments/assets/5e6a3204-f73f-4588-88e9-f77319248f88)
-
 *Zona derecha del contenido previa a la encriptación o desencriptación.*
 
 ---
 
 ![Zona_derecha_pos](https://github.com/user-attachments/assets/3c38c44f-b3c7-441c-81e9-8c2329085e18)
-
 *Zona derecha del contenido posterior a la encriptación o desencriptación.*
 
 Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto referente a que no se ha encontrado ningún mensaje. Posterior a esto, esta zona es reemplazada por un campo donde aparece el texto ya convertido, ya sea cifrado o descrifrado, y un botón de copiar de bajo de este, cuyo proposito es, como su nombre lo indica, copiar dicho texto en el portapapeles mediante el uso de `Clipboard API`.
@@ -107,19 +96,16 @@ Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto
 ### HTML
 
 ![HTML5_logo](https://github.com/user-attachments/assets/cf11ab51-daca-4581-b248-700629bb932a)
-
 *Logo de HTML*
 
 ### CSS
 
 ![css-logo](https://github.com/user-attachments/assets/1fa42f49-a9d4-4757-9560-4a9cbe79fe84)
-
 *Logo de CSS*
 
 ### JavaScript
 
 ![JavaScript-Logo](https://github.com/user-attachments/assets/2b73b858-3aa9-4d70-be09-71bf4feb31ea)
-
 *Logo de JavaScript*
 
 ## Desarrollado por
