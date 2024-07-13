@@ -106,26 +106,32 @@ Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto
 
 ### HTML
 
-![HTML5_logo](https://github.com/user-attachments/assets/cf11ab51-daca-4581-b248-700629bb932a)
+<div>
+  <img src="https://github.com/user-attachments/assets/cf11ab51-daca-4581-b248-700629bb932a" align="center">
 
-*Logo de HTML*
+  *Logo de HTML*
+</div>
 
 ### CSS
 
-![css-logo](https://github.com/user-attachments/assets/1fa42f49-a9d4-4757-9560-4a9cbe79fe84)
+<div>
+  <img src="https://github.com/user-attachments/assets/1fa42f49-a9d4-4757-9560-4a9cbe79fe84" align="center">
 
-*Logo de CSS*
+  *Logo de CSS*
+</div>
 
 ### JavaScript
 
-![JavaScript-Logo](https://github.com/user-attachments/assets/2b73b858-3aa9-4d70-be09-71bf4feb31ea)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2b73b858-3aa9-4d70-be09-71bf4feb31ea">
 
-*Logo de JavaScript*
+  *Logo de JavaScript*
+</div>
 
 ## Desarrollado por
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72)" style="border: 2px solid black; border-radius: 50%; width: 300px; height: 300px;">
+  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72" style="border: 2px solid black; border-radius: 50%; width: 300px; height: 300px;">
   
   *Foto de Juan Rodríguez*
 </div>
