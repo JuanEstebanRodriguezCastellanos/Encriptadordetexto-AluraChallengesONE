@@ -17,11 +17,11 @@ En el caso de este proyecto solo se permitirá entonces las letras en el rango `
 ## Apariencia
 Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 * Cabecera: Contiene el título de la página "Encriptador y desencriptador de mensajes".
-* Contenido:Este consiste en dos zonas.
+* Contenido: Este consiste en dos zonas.
 
-    -La zona de la izquierda contiene el espacio para la inserción y verificación del texto ingresado.
+    - La zona de la izquierda contiene el espacio para la inserción y verificación del texto ingresado.
 
-    -La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
+    - La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
 ### Computador
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
