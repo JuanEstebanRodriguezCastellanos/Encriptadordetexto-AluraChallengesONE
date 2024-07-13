@@ -16,5 +16,6 @@ En el caso de este proyecto solo se permitirá entonces las letras en el rango `
 ### Computador
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
+
 ![Computador-visible](https://github.com/user-attachments/assets/b0aa8630-7d3a-4361-9fd5-be0240dc6011)
 *Imagen del diseño para computador posterior a la desencriptación o encriptación.*
