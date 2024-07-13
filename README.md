@@ -29,37 +29,45 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 ### Computador
 
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
+
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
 
 ---
 
 ![Computador-visible](https://github.com/user-attachments/assets/b0aa8630-7d3a-4361-9fd5-be0240dc6011)
+
 *Imagen del diseño para computador posterior a la desencriptación o encriptación.*
 
 ### Tablet
 
 ![Tablet-oculto](https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5)
+
 *Imagen del diseño para tablet previo a la desencriptación o encriptación.*
 
 ---
 
 ![Tablet-visible](https://github.com/user-attachments/assets/7b2d73ea-e297-434a-8d33-d087b9c4170a)
+
 *Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
 
 ### Celular
 
 ![Celular-oculto](https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b)
+
 *Imagen del diseño para celular previo a la desencriptación o encriptación.*
 
 ---
 
 ![Celular-visible](https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931)
+
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
 ## Funcionamiento
 ### Contenido
 #### Zona izquierda
+
 ![Zona_izquierda](https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5)
+
 *Zona izquierda del contenido.*
 
 Aquí se puede encontrar un área para ingresar el texto, con la frase "Ingrese el texto aquí", seguida de una señal de advertencia acerca del tipo de contenido permitido.
@@ -67,6 +75,7 @@ Aquí se puede encontrar un área para ingresar el texto, con la frase "Ingrese 
 Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la revisión del correcto estado del texto. Si las condiciones se cumplen, se procede a realizar el proceso de encriptación o desencriptación, respectivamente y se vacía el campo de texto. En caso de no cumplirse, la señal de advertencia se enmarca, y se vacía el campo de texto y se hace focus en él.
 ---
 #### Zona derecha
+
 ![Zona_derecha](https://github.com/user-attachments/assets/b2d101ef-48e9-49b3-a9e3-dcac8078c891)
 
-
+*Zona derecha del contenido.*
