@@ -40,7 +40,9 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 ![Tablet-oculto](https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5)
 *Imagen del diseño para tablet previo a la desencriptación o encriptación.*
+
 ---
+
 ![Tablet-visible](https://github.com/user-attachments/assets/7b2d73ea-e297-434a-8d33-d087b9c4170a)
 *Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
 
@@ -48,7 +50,9 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 ![Celular-oculto](https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b)
 *Imagen del diseño para celular previo a la desencriptación o encriptación.*
+
 ---
+
 ![Celular-visible](https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931)
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
