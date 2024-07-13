@@ -62,6 +62,18 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
+### Estado de los botones
+
+![botones_desactivados](https://github.com/user-attachments/assets/0eb6f05a-1027-4321-b422-bd98333abdc3)
+
+*Diseño de los botones desactivados*
+
+---
+
+![botones_activados](https://github.com/user-attachments/assets/7c0d17a6-f749-42fa-985a-d5f4fad1ae37)
+
+*Diseño de los botones activados*
+
 ## Funcionamiento
 ### Contenido
 #### Zona izquierda
@@ -78,6 +90,43 @@ Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la r
 
 #### Zona derecha
 
-![Zona_derecha](https://github.com/user-attachments/assets/b2d101ef-48e9-49b3-a9e3-dcac8078c891)
+![Zona_derecha_pre](https://github.com/user-attachments/assets/5e6a3204-f73f-4588-88e9-f77319248f88)
 
-*Zona derecha del contenido.*
+*Zona derecha del contenido previa a la encriptación o desencriptación.*
+
+---
+
+![Zona_derecha_pos](https://github.com/user-attachments/assets/3c38c44f-b3c7-441c-81e9-8c2329085e18)
+
+*Zona derecha del contenido posterior a la encriptación o desencriptación.*
+
+Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto referente a que no se ha encontrado ningún mensaje. Posterior a esto, esta zona es reemplazada por un campo donde aparece el texto ya convertido, ya sea cifrado o descrifrado, y un botón de copiar de bajo de este, cuyo proposito es, como su nombre lo indica, copiar dicho texto en el portapapeles mediante el uso de `Clipboard API`.
+
+## Lenguajes
+
+### HTML
+
+![HTML5_logo](https://github.com/user-attachments/assets/cf11ab51-daca-4581-b248-700629bb932a)
+
+*Logo de HTML*
+
+### CSS
+
+![css-logo](https://github.com/user-attachments/assets/1fa42f49-a9d4-4757-9560-4a9cbe79fe84)
+
+*Logo de CSS*
+
+### JavaScript
+
+![JavaScript-Logo](https://github.com/user-attachments/assets/2b73b858-3aa9-4d70-be09-71bf4feb31ea)
+
+*Logo de JavaScript*
+
+## Desarrollado por
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72)" style="border: 2px solid black; border-radius: 50%; width: 300px; height: 300px;">
+  *Foto de Juan Rodríguez*
+</div>
+
+---
