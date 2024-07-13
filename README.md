@@ -40,46 +40,51 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 ### Tablet
 
-![Tablet-oculto](https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5" style="width: 768px;">
 
-*Imagen del diseño para tablet previo a la desencriptación o encriptación.*
-
----
-
-![Tablet-visible](https://github.com/user-attachments/assets/7b2d73ea-e297-434a-8d33-d087b9c4170a)
-
-*Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
-
-### Celular
-
-![Celular-oculto](https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b)
-
-*Imagen del diseño para celular previo a la desencriptación o encriptación.*
+  *Imagen del diseño para tablet previo a la desencriptación o encriptación.*
+</div>
 
 ---
 
 <div align="center">
-  <img src="" style="width: 300px;">
-</div>
-![Celular-visible](https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931)
+  <img src="https://github.com/user-attachments/assets/7b2d73ea-e297-434a-8d33-d087b9c4170a" style="width: 768px;">
 
-*Imagen del diseño para celular posterior a la desencriptación o encriptación.*
+  *Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
+</div>
+
+### Celular
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b" style="width: 375px;">
+
+  *Imagen del diseño para celular previo a la desencriptación o encriptación.*
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931" style="width: 375px;">
+
+  *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
+</div>
 
 ### Estado de los botones
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0eb6f05a-1027-4321-b422-bd98333abdc3">
-</div>
 
-*Diseño de los botones desactivados*
+  *Diseño de los botones desactivados*
+</div>
 
 ---
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7c0d17a6-f749-42fa-985a-d5f4fad1ae37">
-</div>
 
-*Diseño de los botones activados*
+  *Diseño de los botones activados*
+</div>
 
 ## Funcionamiento
 ### Contenido
@@ -87,9 +92,9 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5">
-</div>
 
-*Zona izquierda del contenido.*
+  *Zona izquierda del contenido.*
+</div>
 
 Aquí se puede encontrar un área para ingresar el texto, con la frase "Ingrese el texto aquí", seguida de una señal de advertencia acerca del tipo de contenido permitido.
 
@@ -109,9 +114,9 @@ Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la r
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3c38c44f-b3c7-441c-81e9-8c2329085e18">
+  
+  *Zona derecha del contenido posterior a la encriptación o desencriptación.*
 </div>
-
-*Zona derecha del contenido posterior a la encriptación o desencriptación.*
 
 Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto referente a que no se ha encontrado ningún mensaje. Posterior a esto, esta zona es reemplazada por un campo donde aparece el texto ya convertido, ya sea cifrado o descrifrado, y un botón de copiar de bajo de este, cuyo proposito es, como su nombre lo indica, copiar dicho texto en el portapapeles mediante el uso de `Clipboard API`.
 
