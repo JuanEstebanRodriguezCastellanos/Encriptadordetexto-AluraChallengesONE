@@ -1,5 +1,5 @@
 # Encriptadordetexto-AluraChallengesONE
-<div style="text-align: center;">
+<div align= "center">
   <img src="https://img.shields.io/badge/Estado-En%20espera%20de%20aprobaci%C3%B3n-purple" alt="Estado: En espera de aprobación">
 </div>
 ## Qué es
