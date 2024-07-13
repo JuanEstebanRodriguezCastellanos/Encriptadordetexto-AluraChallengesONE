@@ -27,6 +27,7 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
     * La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
 ### Computador
+
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
 
@@ -36,6 +37,7 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 *Imagen del diseño para computador posterior a la desencriptación o encriptación.*
 
 ### Tablet
+
 ![Tablet-oculto](https://github.com/user-attachments/assets/b8838f8f-b08b-4aa7-a5a3-529c40b532d5)
 *Imagen del diseño para tablet previo a la desencriptación o encriptación.*
 ---
@@ -43,6 +45,7 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 *Imagen del diseño para tablet posterior a la desencriptación o encriptación.*
 
 ### Celular
+
 ![Celular-oculto](https://github.com/user-attachments/assets/ccd547d6-bb3d-4a9e-8a78-bb60f55e5a3b)
 *Imagen del diseño para celular previo a la desencriptación o encriptación.*
 ---
