@@ -132,7 +132,7 @@ Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto
 
 <div align="center">
   
-  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72" style="border: 2px solid black; border-radius: 50%; display: block; width: 300px; height: 300px;">
+  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72">
   
   *Foto de Juan Rodríguez*
 </div>
