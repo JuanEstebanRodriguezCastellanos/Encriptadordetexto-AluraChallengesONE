@@ -7,10 +7,12 @@ Este proyecto consiste en la realización de encriptador y desencriptador de tex
 * La letra `i` se convierte en `imes`.
 * La letra `o` se convierte en `ober`.
 * La letra `u` se convierte en `ufat`.
+
 Este proceso debe realizarse inversamente para la desencriptación.
 ### Restricciones
 * Se permite solo el ingreso de letras minúsculas.
 * No se permite el ingreso de letras con carácteres especiales.
+
 En el caso de este proyecto solo se permitirá entonces las letras en el rango `a-z` del español y los siguientes carácteres `. , ; ¡ ! ¿ ? : ( )`.
 ## Apariencia
 Consiste en tres áreas, la cabecera, el contenido y el pie de página.
