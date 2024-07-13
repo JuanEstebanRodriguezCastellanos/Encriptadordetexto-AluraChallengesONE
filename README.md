@@ -58,19 +58,26 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 
 ---
 
+<div align="center">
+  <img src="" style="width: 300px;">
+</div>
 ![Celular-visible](https://github.com/user-attachments/assets/013085ec-815f-44ca-9e17-0773fe493931)
 
 *Imagen del diseño para celular posterior a la desencriptación o encriptación.*
 
 ### Estado de los botones
 
-![botones_desactivados](https://github.com/user-attachments/assets/0eb6f05a-1027-4321-b422-bd98333abdc3)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0eb6f05a-1027-4321-b422-bd98333abdc3">
+</div>
 
 *Diseño de los botones desactivados*
 
 ---
 
-![botones_activados](https://github.com/user-attachments/assets/7c0d17a6-f749-42fa-985a-d5f4fad1ae37)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7c0d17a6-f749-42fa-985a-d5f4fad1ae37">
+</div>
 
 *Diseño de los botones activados*
 
@@ -78,7 +85,9 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 ### Contenido
 #### Zona izquierda
 
-![Zona_izquierda](https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c6452787-3843-4e4c-9cda-405d8adce2a5">
+</div>
 
 *Zona izquierda del contenido.*
 
@@ -90,13 +99,17 @@ Abajo finalmente se encuentran dos botones, cuyo próposito es desencadenar la r
 
 #### Zona derecha
 
-![Zona_derecha_pre](https://github.com/user-attachments/assets/5e6a3204-f73f-4588-88e9-f77319248f88)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5e6a3204-f73f-4588-88e9-f77319248f88">
+</div>
 
 *Zona derecha del contenido previa a la encriptación o desencriptación.*
 
 ---
 
-![Zona_derecha_pos](https://github.com/user-attachments/assets/3c38c44f-b3c7-441c-81e9-8c2329085e18)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3c38c44f-b3c7-441c-81e9-8c2329085e18">
+</div>
 
 *Zona derecha del contenido posterior a la encriptación o desencriptación.*
 
@@ -134,7 +147,7 @@ Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto
   
   <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72" style="width: 300px; height: 300px;">
   
-  *Foto de Juan Rodríguez*
+  *Juan Rodríguez*
 </div>
 
 ---
