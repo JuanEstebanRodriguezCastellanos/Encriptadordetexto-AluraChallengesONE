@@ -24,8 +24,10 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
 * Contenido: Este consiste en dos zonas.
 
     * La zona de la izquierda contiene el espacio para la inserción y verificación del texto ingresado.
-
     * La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
+
+* Pie de página: Contiene un mensaje alusivo al proposito del proyecto y enlaces para el acceso a mis redes, Github y LinkedIn.
+
 ### Computador
 
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
