@@ -28,6 +28,8 @@ Consiste en tres áreas, la cabecera, el contenido y el pie de página.
     * La zona de la derecha contiene el espacio correspondiente a la visualización del texto ya procesado y su utilización.
 ### Computador
 
+<img src="https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a" style="height: 50%">
+
 ![Computador-oculto](https://github.com/user-attachments/assets/9c89b6f2-6e3f-4b7d-b18b-6788eef9041a)
 
 *Imagen del diseño para computador previo a la desencriptación o encriptación.*
@@ -131,7 +133,8 @@ Antes de presionar cualquiera de los botones, esta zona presenta un logo y texto
 ## Desarrollado por
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72" style="border: 2px solid black; border-radius: 50%; width: 300px; height: 300px;">
+  
+  <img src="https://github.com/user-attachments/assets/b678a2e8-5a8c-428b-819f-34bd88741a72" style="border: 2px solid black; border-radius: 50%; display: block; width: 300px; height: 300px;">
   
   *Foto de Juan Rodríguez*
 </div>
